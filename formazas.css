@@ -7,24 +7,30 @@ body {
     font-size: 18pt;
     background-color: rgb(255, 251, 240);
     color: grey;
-
 }
 #scottishfold_id {
     font-size: 18pt;
     background-color: rgb(255, 245, 240);
     color: red;
-
-
 }
 #bengali_id {
     font-size: 18pt;
     background-color: rgb(255, 245, 240);
     color: blueviolet;
-
 }
 .felsorolas_class{
-
-color: aqua;
-
-
+color: rgb(255, 0, 0);
+}
+.gomb_class {
+    display: inline-block;          /* Gombként jelenjen meg */
+    padding: 10px 20px;            /* Gomb mérete */
+    background-color: #007BFF;     /* Gomb színe (kék) */
+    color: white;                  /* Szöveg színe */
+    text-decoration: none;         /* Link aláhúzás eltüntetése */
+    border-radius: 5px;            /* Lekerekített sarkok */
+    font-size: 16px;               /* Szövegméret */
+    font-family: Arial, sans-serif; /* Betűtípus */
+    text-align: center;            /* Szöveg középre igazítása */
+    border: none;                  /* Nincs keret */
+    cursor: pointer;               /* Kéz ikon jelenjen meg a kurzorral */
 }
